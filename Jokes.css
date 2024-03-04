@@ -1,0 +1,45 @@
+/* Jokes.css */
+
+/* Use a serif font for the body element */
+body {
+    font-family: serif;
+}
+
+/* Style the get joke button */
+#get-joke-button {
+    background-color: rgb(0, 255, 0);
+    border-radius: 15px;
+    padding: 4px;
+    cursor: pointer;
+}
+
+/* Change color when hoverong the get joke button */
+#get-joke-button:hover {
+    background-color: rgb(0, 235, 0);
+}
+
+.center-button {
+    text-align: center;
+}
+
+/* Style the forthejokes element */
+#forthejokes {
+    font-family: Arial, Helvetica, sans-serif;
+    border: 3pt solid rgb(255, 255, 0);
+    background-color: rgb(255, 0, 0, 0.3);
+    border-radius: 15px;
+    padding: 8px;
+    max-width: 1000px;
+    margin: 16px auto;
+}
+
+#forthejokestext {
+    font-size: 20px;
+    text-align: center;
+}
+
+#fortheauthor {
+    font-size: 15px;
+    text-align:right;
+    font-style: italic;
+}
